@@ -1,0 +1,20 @@
+{
+  "name": "concept-projects",
+  "packageManager": "yarn@4.6.0",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx index.ts"
+  },
+  "dependencies": {
+    "@aztec/accounts": "0.76.4-devnet-test-rc3",
+    "@aztec/aztec.js": "^0.76.4-devnet-test-rc3",
+    "@aztec/ethereum": "^0.76.4-devnet-test-rc3",
+    "@aztec/l1-artifacts": "^0.76.4-devnet-test-rc3",
+    "@aztec/noir-contracts.js": "^0.76.4-devnet-test-rc3",
+    "@aztec/types": "^0.76.4-devnet-test-rc3",
+    "@types/node": "^22.13.4",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3",
+    "viem": "^2.23.2"
+  }
+}
