@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "rootDir": ".",
+    "rootDir": "src",
     "outDir": "./dest",
     "target": "es2020",
     "lib": ["dom", "ESNext", "ES2017.Object"],
@@ -17,5 +17,6 @@
     "resolveJsonModule": true,
     "composite": true,
     "skipLibCheck": true
-  }
+  },
+  "exclude": ["node_modules"]
 }

@@ -3,14 +3,17 @@
   "packageManager": "yarn@4.6.0",
   "type": "module",
   "scripts": {
-    "start": "node --import tsx index.ts"
+    "start": "node --import tsx index.ts",
+    "test": "node --import tsx src/test.ts"
   },
   "dependencies": {
     "@aztec/accounts": "0.76.4-devnet-test-rc3",
     "@aztec/aztec.js": "^0.76.4-devnet-test-rc3",
+    "@aztec/circuits.js": "^0.76.4-devnet-test-rc3",
     "@aztec/ethereum": "^0.76.4-devnet-test-rc3",
     "@aztec/l1-artifacts": "^0.76.4-devnet-test-rc3",
     "@aztec/noir-contracts.js": "^0.76.4-devnet-test-rc3",
+    "@aztec/protocol-contracts": "^0.76.4-devnet-test-rc3",
     "@aztec/types": "^0.76.4-devnet-test-rc3",
     "@types/node": "^22.13.4",
     "tsx": "^4.19.2",
